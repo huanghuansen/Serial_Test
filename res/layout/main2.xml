@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/textColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edzbj1"
+    android:layout_marginTop="5dip"
+    android:layout_marginBottom="2dip"
+    android:layout_marginLeft="30dip"
+    android:layout_marginRight="30dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:text="姓 名" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:text="性 别" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:text="出 生" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="13dip"
+        android:text="住 址" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/textColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="xxx"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/textView7"
+        android:text="年" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/textView7"
+        android:text="月" />
+
+    <TextView
+        android:id="@+id/textView11"
+        style="@style/textColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/textView6"
+        android:text="x" />
+
+    <TextView
+        android:id="@+id/textView16"
+        style="@style/textColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignLeft="@+id/textView9"
+        android:text="xx" />
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/textColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_toLeftOf="@+id/textView16"
+        android:layout_toRightOf="@+id/textView8"
+        android:gravity="center"
+        android:text="xx" />
+
+    <TextView
+        android:id="@+id/textView15"
+        style="@style/textColor2"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/textView11"
+        android:text="xxxxxx" />
+
+    <TextView
+        android:id="@+id/textView17"
+        style="@style/textColor2"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_toRightOf="@+id/textView9"
+        android:gravity="center"
+        android:text="xx" />
+
+    <TextView
+        android:id="@+id/textView14"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_toRightOf="@+id/textView17"
+        android:text="日" />
+
+    <TextView
+        android:id="@+id/textView19"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="32dip"
+        android:text="签发机关" />
+
+    <TextView
+        android:id="@+id/textView18"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView19"
+        android:text="有效期限" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/textColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_toRightOf="@+id/textView8"
+        android:text="xxxxxxxxxxxxxxx"
+        android:textScaleX="1.2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        style="@style/textColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignLeft="@+id/textView11"
+        android:gravity="center"
+        android:text="xxxx" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="名 族" />
+
+    <TextView
+        android:id="@+id/textView20"
+        style="@style/textColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView18"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_alignLeft="@+id/textView21"
+        android:text="xxxxxx" />
+
+    <TextView
+        android:id="@+id/textView21"
+        style="@style/textColor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView19"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_marginLeft="20dip"
+        android:layout_toRightOf="@+id/textView19"
+        android:text="xxxxxx" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dip"
+        android:layout_height="120dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginRight="50dip"
+        android:src="@drawable/hui1" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#50000000"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textSize="10sp"
+        android:layout_marginRight="8dip"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView22"
+        android:layout_marginBottom="0dip"
+        android:layout_alignLeft="@+id/textView18"
+        android:text="公民身份号码" />
+
+</RelativeLayout>
